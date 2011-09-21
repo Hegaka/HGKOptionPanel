@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EEB38351429D3D8009E6F72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEB38341429D3D8009E6F72 /* UIKit.framework */; };
+		0EEB38371429D3D8009E6F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEB38361429D3D8009E6F72 /* Foundation.framework */; };
+		0EEB38391429D3D8009E6F72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEB38381429D3D8009E6F72 /* CoreGraphics.framework */; };
+		0EEB383F1429D3D8009E6F72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB383D1429D3D8009E6F72 /* InfoPlist.strings */; };
+		0EEB38411429D3D8009E6F72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB38401429D3D8009E6F72 /* main.m */; };
+		0EEB38451429D3D8009E6F72 /* HGKOptionPanelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB38441429D3D8009E6F72 /* HGKOptionPanelAppDelegate.m */; };
+		0EEB38481429D3D8009E6F72 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB38461429D3D8009E6F72 /* MainWindow.xib */; };
+		0EEB38531429D401009E6F72 /* HGKOptionPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB38501429D401009E6F72 /* HGKOptionPanel.m */; };
+		0EEB38541429D401009E6F72 /* iconCollapse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB38511429D401009E6F72 /* iconCollapse.png */; };
+		0EEB38551429D401009E6F72 /* iconExpand.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB38521429D401009E6F72 /* iconExpand.png */; };
+		0EEB38571429D587009E6F72 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB38561429D587009E6F72 /* README.txt */; };
+		0EEB38591429D593009E6F72 /* COPYRIGHT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB38581429D593009E6F72 /* COPYRIGHT.txt */; };
+		0EEB385B1429D5A3009E6F72 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0EEB385A1429D5A3009E6F72 /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EEB38301429D3D8009E6F72 /* HGKOptionPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGKOptionPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEB38341429D3D8009E6F72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EEB38361429D3D8009E6F72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EEB38381429D3D8009E6F72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EEB383C1429D3D8009E6F72 /* HGKOptionPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HGKOptionPanel-Info.plist"; sourceTree = "<group>"; };
+		0EEB383E1429D3D8009E6F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EEB38401429D3D8009E6F72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EEB38421429D3D8009E6F72 /* HGKOptionPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGKOptionPanel-Prefix.pch"; sourceTree = "<group>"; };
+		0EEB38431429D3D8009E6F72 /* HGKOptionPanelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGKOptionPanelAppDelegate.h; sourceTree = "<group>"; };
+		0EEB38441429D3D8009E6F72 /* HGKOptionPanelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGKOptionPanelAppDelegate.m; sourceTree = "<group>"; };
+		0EEB38471429D3D8009E6F72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0EEB384F1429D401009E6F72 /* HGKOptionPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGKOptionPanel.h; sourceTree = "<group>"; };
+		0EEB38501429D401009E6F72 /* HGKOptionPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGKOptionPanel.m; sourceTree = "<group>"; };
+		0EEB38511429D401009E6F72 /* iconCollapse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconCollapse.png; sourceTree = "<group>"; };
+		0EEB38521429D401009E6F72 /* iconExpand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconExpand.png; sourceTree = "<group>"; };
+		0EEB38561429D587009E6F72 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = HGKOptionPanel/README.txt; sourceTree = "<group>"; };
+		0EEB38581429D593009E6F72 /* COPYRIGHT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COPYRIGHT.txt; path = HGKOptionPanel/COPYRIGHT.txt; sourceTree = "<group>"; };
+		0EEB385A1429D5A3009E6F72 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEB382D1429D3D8009E6F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEB38351429D3D8009E6F72 /* UIKit.framework in Frameworks */,
+				0EEB38371429D3D8009E6F72 /* Foundation.framework in Frameworks */,
+				0EEB38391429D3D8009E6F72 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EEB38251429D3D8009E6F72 = {
+			isa = PBXGroup;
+			children = (
+				0EEB38561429D587009E6F72 /* README.txt */,
+				0EEB385A1429D5A3009E6F72 /* LICENSE.txt */,
+				0EEB38581429D593009E6F72 /* COPYRIGHT.txt */,
+				0EEB383A1429D3D8009E6F72 /* HGKOptionPanel */,
+				0EEB38331429D3D8009E6F72 /* Frameworks */,
+				0EEB38311429D3D8009E6F72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EEB38311429D3D8009E6F72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEB38301429D3D8009E6F72 /* HGKOptionPanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EEB38331429D3D8009E6F72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EEB38341429D3D8009E6F72 /* UIKit.framework */,
+				0EEB38361429D3D8009E6F72 /* Foundation.framework */,
+				0EEB38381429D3D8009E6F72 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EEB383A1429D3D8009E6F72 /* HGKOptionPanel */ = {
+			isa = PBXGroup;
+			children = (
+				0EEB384E1429D3F1009E6F72 /* Component */,
+				0EEB38431429D3D8009E6F72 /* HGKOptionPanelAppDelegate.h */,
+				0EEB38441429D3D8009E6F72 /* HGKOptionPanelAppDelegate.m */,
+				0EEB38461429D3D8009E6F72 /* MainWindow.xib */,
+				0EEB383B1429D3D8009E6F72 /* Supporting Files */,
+			);
+			path = HGKOptionPanel;
+			sourceTree = "<group>";
+		};
+		0EEB383B1429D3D8009E6F72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EEB383C1429D3D8009E6F72 /* HGKOptionPanel-Info.plist */,
+				0EEB383D1429D3D8009E6F72 /* InfoPlist.strings */,
+				0EEB38401429D3D8009E6F72 /* main.m */,
+				0EEB38421429D3D8009E6F72 /* HGKOptionPanel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EEB384E1429D3F1009E6F72 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				0EEB384F1429D401009E6F72 /* HGKOptionPanel.h */,
+				0EEB38501429D401009E6F72 /* HGKOptionPanel.m */,
+				0EEB38511429D401009E6F72 /* iconCollapse.png */,
+				0EEB38521429D401009E6F72 /* iconExpand.png */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EEB382F1429D3D8009E6F72 /* HGKOptionPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEB384B1429D3D8009E6F72 /* Build configuration list for PBXNativeTarget "HGKOptionPanel" */;
+			buildPhases = (
+				0EEB382C1429D3D8009E6F72 /* Sources */,
+				0EEB382D1429D3D8009E6F72 /* Frameworks */,
+				0EEB382E1429D3D8009E6F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGKOptionPanel;
+			productName = HGKOptionPanel;
+			productReference = 0EEB38301429D3D8009E6F72 /* HGKOptionPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EEB38271429D3D8009E6F72 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0EEB382A1429D3D8009E6F72 /* Build configuration list for PBXProject "HGKOptionPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EEB38251429D3D8009E6F72;
+			productRefGroup = 0EEB38311429D3D8009E6F72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EEB382F1429D3D8009E6F72 /* HGKOptionPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EEB382E1429D3D8009E6F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEB383F1429D3D8009E6F72 /* InfoPlist.strings in Resources */,
+				0EEB38481429D3D8009E6F72 /* MainWindow.xib in Resources */,
+				0EEB38541429D401009E6F72 /* iconCollapse.png in Resources */,
+				0EEB38551429D401009E6F72 /* iconExpand.png in Resources */,
+				0EEB38571429D587009E6F72 /* README.txt in Resources */,
+				0EEB38591429D593009E6F72 /* COPYRIGHT.txt in Resources */,
+				0EEB385B1429D5A3009E6F72 /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EEB382C1429D3D8009E6F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEB38411429D3D8009E6F72 /* main.m in Sources */,
+				0EEB38451429D3D8009E6F72 /* HGKOptionPanelAppDelegate.m in Sources */,
+				0EEB38531429D401009E6F72 /* HGKOptionPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EEB383D1429D3D8009E6F72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEB383E1429D3D8009E6F72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EEB38461429D3D8009E6F72 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEB38471429D3D8009E6F72 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EEB38491429D3D8009E6F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0EEB384A1429D3D8009E6F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EEB384C1429D3D8009E6F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HGKOptionPanel/HGKOptionPanel-Prefix.pch";
+				INFOPLIST_FILE = "HGKOptionPanel/HGKOptionPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EEB384D1429D3D8009E6F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HGKOptionPanel/HGKOptionPanel-Prefix.pch";
+				INFOPLIST_FILE = "HGKOptionPanel/HGKOptionPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEB382A1429D3D8009E6F72 /* Build configuration list for PBXProject "HGKOptionPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEB38491429D3D8009E6F72 /* Debug */,
+				0EEB384A1429D3D8009E6F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEB384B1429D3D8009E6F72 /* Build configuration list for PBXNativeTarget "HGKOptionPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEB384C1429D3D8009E6F72 /* Debug */,
+				0EEB384D1429D3D8009E6F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EEB38271429D3D8009E6F72 /* Project object */;
+}
