@@ -1,10 +1,9 @@
-//
-//  HGKOptionPanelAppDelegate.h
-//  HGKOptionPanel
-//
-//  Created by Jon Arrien  Fernández on 21/09/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+/*
+ * Copyright        : Copyright (c) 2011 Hegaka
+ * Author           : Jon Arrien
+ * Twitter          : @jonarrien
+ * All right reserved
+ */
 
 #import <UIKit/UIKit.h>
 

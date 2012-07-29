@@ -1,10 +1,9 @@
-//
-//  HGKOptionPanel.m
-//  iNVASIVE
-//
-//  Created by Jon Arrien Fernández on 18/08/11.
-//  Copyright 2011 Hegaka. All rights reserved.
-//
+/*
+ * Copyright        : Copyright (c) 2011 Hegaka
+ * Author           : Jon Arrien
+ * Twitter          : @jonarrien
+ * All right reserved
+ */
 
 #import "HGKOptionPanel.h"
 
@@ -17,7 +16,7 @@
 
 
 - (id)initWithFrame:(CGRect)frame
-{   
+{
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
@@ -42,17 +41,17 @@
     if (!self.isExpanded)
     {
         self.isExpanded = YES;
-        
+
         frame.origin.y -=65;
         self.frame = frame;
-        
+
         [self.btnShowHide setImage:[UIImage imageNamed:@"iconCollapse.png"] forState:UIControlStateNormal];
     } else {
         self.isExpanded = NO;
-        
+
         frame.origin.y +=65;
         self.frame = frame;
-        
+
         [self.btnShowHide setImage:[UIImage imageNamed:@"iconExpand.png"] forState:UIControlStateNormal];
     }
     [UIView commitAnimations];
