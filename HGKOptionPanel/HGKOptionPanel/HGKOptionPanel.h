@@ -18,7 +18,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIButton *btnShowHide;
-@property IBOutlet Boolean isExpanded;
+@property Boolean isExpanded;
 -(IBAction) controlPanelShowHide:(id)sender;
 
 

@@ -65,7 +65,6 @@
 - (void) dealloc{
     [super dealloc];
     [btnShowHide release], btnShowHide = nil;
-    [isExpanded release], isExpanded = nil;
 }
 
 @end
